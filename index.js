@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 var errorMessage = "<h1>404</h1><p>Sorry it seems there was an error in the input you gave, please try again.</p>";
 
